@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Productos dinámicos</title>
+<link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+<main class="contenedor">
+<h1>Registro de productos</h1>
+<form id="formProducto">
+<input id="nombre" type="text" placeholder="Nombre del producto">
+<input id="precio" type="number" placeholder="Precio">
+<input id="stock" type="number" placeholder="Stock">
+<button type="submit">Guardar</button>
+</form>
+<p id="mensaje"></p>
+<table>
+<thead>
+<tr>
+<th>Nombre</th>
+<th>Precio</th>
+<th>Stock</th>
+</tr>
+</thead>
+<tbody id="tablaProductos"></tbody>
+</table>
+</main>
+<script src="js/app.js"></script>
+</body>
+</html>
